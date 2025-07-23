@@ -1,41 +1,52 @@
-# # print("Hello, DeepSeeds")
+# # # print("Hello, DeepSeeds")
 
-# # #why do we need variables?
-# # name = "Rita"
+# # # #why do we need variables?
+# # # name = "Rita"
 
-# # print("I am Gita, I love this name - Gita, was given to me by my father, Paul Gita, and I really love the name, gita")
+# # # print("I am Gita, I love this name - Gita, was given to me by my father, Paul Gita, and I really love the name, gita")
 
-# # print("my name is " + name + " i love " + name + " was given by my father, " + name + " Paul")
-
-
-# #Numbers
-# whole_number = 42        # Integer (int)
-# decimal_umber = 3.14159  # Float
-# complex_number = 2 + 3j  # Complex
+# # # print("my name is " + name + " i love " + name + " was given by my father, " + name + " Paul")
 
 
-# #Text
-# greeting = "Hello, World!"     # String (str)
-# single_char = 'A'               # Also a string
-
-# # Boolean (True/False)
-# is_sunny = True                # Boolean (bool)
-# is_raining = False
-
-# #Check the type of any variable
-# print(type(whole_number))
-# print(type(greeting))
+# # #Numbers
+# # whole_number = 42        # Integer (int)
+# # decimal_umber = 3.14159  # Float
+# # complex_number = 2 + 3j  # Complex
 
 
+# # #Text
+# # greeting = "Hello, World!"     # String (str)
+# # single_char = 'A'               # Also a string
 
-# band name generator
+# # # Boolean (True/False)
+# # is_sunny = True                # Boolean (bool)
+# # is_raining = False
 
-name = input("What's you name? ")
-age = int(input("How old are you? "))
-fav_meal = input("Which meal do you enjoy most? ")
-school = input("Which school do you attend? ")
-department = input("In which department are you? ")
-best_friend = input("WHhat's your best friend's name? ")
+# # #Check the type of any variable
+# # print(type(whole_number))
+# # print(type(greeting))
 
 
-print(f"\nHello my name is {name} and I've spent {age} years on the earth.\n I attend {school}, an engineering school, in the department of {department}.\n I enjoy eating {fav_meal} and my best friend's name is {best_friend}\n")
+
+# # band name generator
+
+# name = input("What's you name? ")
+# age = int(input("How old are you? "))
+# fav_meal = input("Which meal do you enjoy most? ")
+# school = input("Which school do you attend? ")
+# department = input("In which department are you? ")
+# best_friend = input("WHhat's your best friend's name? ")
+
+
+# print(f"\nHello my name is {name} and I've spent {age} years on the earth.\n I attend {school}, an engineering school, in the department of {department}.\n I enjoy eating {fav_meal} and my best friend's name is {best_friend}\n")
+
+
+# calculator
+
+length = int(input("Enter the length of the rectangle: "))
+width = int(input("Enter the length of the rectangle: "))
+
+area = length * width
+perimeter = (length + width) * 2
+
+print(f"Area of rectangle: {area}\nPerimeter of recangle: {perimeter}")
