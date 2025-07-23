@@ -43,10 +43,18 @@
 
 # calculator
 
-length = int(input("Enter the length of the rectangle: "))
-width = int(input("Enter the length of the rectangle: "))
+# length = int(input("Enter the length of the rectangle: "))
+# width = int(input("Enter the length of the rectangle: "))
 
-area = length * width
-perimeter = (length + width) * 2
+# area = length * width
+# perimeter = (length + width) * 2
 
-print(f"Area of rectangle: {area}\nPerimeter of recangle: {perimeter}")
+# print(f"Area of rectangle: {area}\nPerimeter of recangle: {perimeter}")
+
+
+# convert celcius to fahrenheit
+
+celcius = float(input("Enter temperature in celcius: "))
+fahrenheit = (celcius * 9 / 5) + 32
+
+print(f"Temperature in celcius: {celcius} degrees celcius\nTemperature in fahrenheit: {fahrenheit}")
