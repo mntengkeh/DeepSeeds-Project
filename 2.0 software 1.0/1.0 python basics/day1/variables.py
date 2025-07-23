@@ -54,7 +54,20 @@
 
 # convert celcius to fahrenheit
 
-celcius = float(input("Enter temperature in celcius: "))
-fahrenheit = (celcius * 9 / 5) + 32
+# celcius = float(input("Enter temperature in celcius: "))
+# fahrenheit = (celcius * 9 / 5) + 32
 
-print(f"Temperature in celcius: {celcius} degrees celcius\nTemperature in fahrenheit: {fahrenheit}")
+# print(f"Temperature in celcius: {celcius} degrees celcius\nTemperature in fahrenheit: {fahrenheit}")
+
+# swap
+
+a = input("First: ")
+b = input("Second: ")
+
+print(f"Before swap: a -> {a}, b -> {b}")
+
+temp = a
+a = b
+b = temp
+
+print(f"After swap:  a -> {a}, b -> {b}")
