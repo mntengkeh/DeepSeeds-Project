@@ -1,0 +1,6 @@
+
+******** RECORD BOOK ********
+
+Today's date: 2025-07-31 10:20
+
+python data structures
