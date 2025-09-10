@@ -1,4 +1,5 @@
 from config import load_google_chat_model
+from langchain_core.callbacks import BaseCallbackHandler
 import time
 
 chat_model = load_google_chat_model()
@@ -22,9 +23,16 @@ while True:
      break
    else:
     #  print("\n")
-     messages[1] = ("user", f"{user_input}")
-     print("\nThinking...")
-     for part in chat_model.stream(messages):
-       print(f"\n{part.content}", end="", flush=True)
-     print("\n")
+    messages[1] = ("user", f"{user_input}")
+    print("\nThinking...")
+    #  for part in chat_model.stream(messages):
+    #    print(f"\n{part.content}", end="", flush=True)
+    
+   print("\n")
  
+
+
+
+class TokenHandler(BaseCallbackHandler):
+  def on_token(self, token, **kwargs):
+    print(token, end="", flush=True)
